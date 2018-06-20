@@ -34,14 +34,6 @@ div {
 	left: 800px;
 }
 
-.main-header { 
-	background-color: yellow;
-	height: 200px;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	z-index: 100;
-}
 
 .experience-ribbon {
 	position: relative;
@@ -180,12 +172,12 @@ margin-top: 70px;
 }
 
 .contact-group a:visited{
-	color:black;
+	color:#FBF1C7;
 }
 
 
 .contact-group a:link{
-	color:black;
+	color:#FBF1C7;
 }
 
 
@@ -203,12 +195,12 @@ font-family: sans-serif;
 }
 
 .project-link a:visited{
-	color:black;
+	color:#FBF1C7;
 }
 
 
 .project-link a:link{
-	color:black;
+	color:#FBF1C7;
 }
 
 
@@ -220,18 +212,28 @@ font-family: sans-serif;
 .project-link  a:active{
 	color:green;
 }
-.content {
-height:100%;
-background: pink;
+
+
+.main-header { 
+	background-color: #FBEF5E;
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	z-index: 100;
 }
 
+.content {
+	height:100%;
+	background: #F38A59;
+}
 
 .content2 {
-height:100%;
-background: blue;
+	height:100%;
+	background: #BA3A5B;
 }
 
 .content3 {
-height:100%;
-background: yellow;
+	height:100%;
+	background: #6C2973;
 }
