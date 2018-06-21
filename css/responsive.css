@@ -58,9 +58,9 @@
 	}
 
 	#group-icon-android-1 {
-	position:absolute;
-	bottom:-3px;
-	right:190px;
+		position:absolute;
+		bottom:-3px;
+		right:190px;
 
 	}
 
@@ -297,6 +297,10 @@
 
 	#web-font-fix-2 {
 		margin-bottom:70px;
+		font-size: 17px;
+	}
+
+	.contact-group a {
 		font-size: 17px;
 	}
 }

@@ -19,10 +19,9 @@ html, body {
 }
 
 .name {
-float: right;
-margin: 0 auto;
-margin-right: 10px;
-
+	float: right;
+	margin: 0 auto;
+	margin-right: 10px;
 }
 
 #name-self {
@@ -48,7 +47,6 @@ margin-right: 10px;
 	font-size: 30px;
 	position: relative;
 	top: 110px;
-
 }
 
 .name-text {
@@ -86,7 +84,7 @@ margin-right: 10px;
 }
 
 .experience-android h3 {
-margin-left: 30px;
+	margin-left: 30px;
 }
 
 .experience-web-box {
@@ -104,7 +102,7 @@ margin-left: 30px;
 }
 
 .experience-web h3 {
-margin-left: 50px;
+	margin-left: 50px;
 }
 
 /* PROJECTS COMPLETED PART STYLING */
@@ -137,9 +135,9 @@ margin-left: 50px;
 }
 
 #project-icon-android-1 {
-width: 250px;
-height: 200px;
-margin-left: 30px;
+	width: 250px;
+	height: 200px;
+	margin-left: 30px;
 }
 
 .project-web-box {
@@ -152,15 +150,15 @@ margin-left: 30px;
 }
 
 #project-icon-web-1 {
-width: 220px;
-height: 100px;
-margin-left: 20px;
-margin-top: 70px;
+	width: 220px;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 70px;
 }
 
 .project-link a{
-font-family: sans-serif;
-vertical-align: center;
+	font-family: sans-serif;
+	vertical-align: center;
 }
 
 .project-link a:visited{
@@ -243,8 +241,8 @@ vertical-align: center;
 
 /* FOOTER */
 .main-footer{
-font-family: ans-serif;
-text-align: center;
+	font-family: ans-serif;
+	text-align: center;
 }
 
 .main-footer a:link, .main-footer a:visited{
