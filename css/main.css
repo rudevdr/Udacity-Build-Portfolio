@@ -54,6 +54,14 @@ html, body {
 	font-family: sans-serif;
 }
 
+#logo {
+	margin-top: 20px;
+	margin-left: 20px;
+	left: 25px;
+	width: 150px;
+	height: 150px;
+}
+
 /* SKILLS PART STYLING */
 .experience-ribbon {
 	position: relative;

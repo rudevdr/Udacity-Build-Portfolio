@@ -4,7 +4,7 @@
 }
 
 /* BREAKPOINT 1 */
-@media screen and (max-width:666px ){
+@media screen and (max-width:730px ){
 	#name-self {
 		font-size: 40px;
 	}
@@ -103,6 +103,14 @@
 		margin-bottom:70px;
 		font-size: 17px;
 	}
+
+	#logo {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		width: 100px;
+		height: 100px;
+	}
+
 }
 
 /* BREAKPOINT 2 */
@@ -203,10 +211,18 @@
 		margin-bottom:70px;
 		font-size: 17px;
 	}
+
+	#logo {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		width: 100px;
+		height: 100px;
+	}
+
 }
 
 /* BREAKPOINT 3 */
-@media screen and (max-width:486px ){
+@media screen and (max-width:449px ){
 	#name-self {
 		font-size: 36px;
 	}
@@ -303,14 +319,20 @@
 	}
 
 	.contact-group a {
-		font-size: 17px;
+		font-size: 15px;
+	}
+
+	#logo {
+		margin-top: 40px;
+		margin-left: 30px;
+		width: 60px;
+		height: 60px;
 	}
 }
 
 
 /* BREAKPOINT 4 for height */
-@media screen and (max-height: 700px){
-
+@media screen and (max-height: 700px) and (max-width: 340px){
 	.experience-android-box {
 		margin-top: -70px;
 		margin-left: 80px;
@@ -402,4 +424,23 @@
 		margin-top: 10px;
 		font-size: 10px;
 	}
+
+
+	#logo {
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 0px;
+		height: 0px;
+	}
+}
+
+@media screen and (max-width: 416px){
+
+	#logo {
+		margin-top: 120px;
+		margin-left: 140px;
+		width: 50px;
+		height: 50px;
+	}
+
 }
