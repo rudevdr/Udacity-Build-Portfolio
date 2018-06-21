@@ -7,44 +7,42 @@ html, body {
 	overflow-x: hidden;
 }
 
-.main-header { 
+.main-header {
 	background-color: #FBEF5E;
 	height: 200px;
 	width: 100%;
 	position: relative;
-	float:right;
+	float: right;
 }
 
 .name {
 float: right;
-margin:0 auto;
+margin: 0 auto;
 margin-right: 10px;
 
 }
 
 #name-self {
-
-	height; 100%;
-	background-color:black; 
-	color:white; 
-	font-family:sans-serif;
-	display:inline;
-	float:right;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	display: inline;
+	float: right;
 	position: absolute;
 	top: 10px;
-	text-align:left;
+	text-align: left;
 	clear: both;
-	font-size:60px;
+	font-size: 60px;
 }
 
 #name-role {
 
-	background-color:black; 
-	color:white; 
-	font-family:arial;
-	display:inline;
-	float:right;
-	font-size:30px;
+	background-color: black;
+	color: white;
+	font-family: arial;
+	display: inline;
+	float: right;
+	font-size: 30px;
 	position: relative;
 	top: 110px;
 
@@ -85,7 +83,7 @@ margin-right: 10px;
 }
 
 .experience-android h3 {
-margin-left:30px;
+margin-left: 30px;
 }
 
 .experience-web-box {
@@ -104,7 +102,7 @@ margin-left:30px;
 
 
 .experience-web h3 {
-margin-left:50px;
+margin-left: 50px;
 }
 
 
@@ -162,7 +160,7 @@ margin-top: 70px;
 
 .project-link a{
 font-family: sans-serif;
-vertical-align:center;
+vertical-align: center;
 }
 
 .project-link a:visited{
@@ -176,12 +174,12 @@ vertical-align:center;
 
 
 .project-link  a:hover{
-	color:#CBAE06;
+	color: #CBAE06;
 }
 
 
 .project-link  a:active{
-	color:green;
+	color: green;
 }
 
 
@@ -199,14 +197,13 @@ vertical-align:center;
 	margin-top: 60px;
 	width: 80px;
 	height: 80px;
-	font: arial;
 	font-size: 22px;
 	text-align: center;
 }
 
 .contact-icon {
-	width:75px;
-	height:75px;
+	width: 75px;
+	height: 75px;
 
 }
 
@@ -221,12 +218,12 @@ vertical-align:center;
 
 
 .contact-group  a:hover, .main-footer a:hover{
-	color:#CBAE06;
+	color: #CBAE06;
 }
 
 
 .contact-group  a:active, .main-footer a:active{
-	color:green;
+	color: green;
 }
 
 .contact-group a {
@@ -237,23 +234,23 @@ vertical-align:center;
 
 .experience {
 	width: 100%;
-	height:100%;
+	height: 100%;
 	background: #F38A59;
 }
 
 .project {
 	width: 100%;
-	height:100%;
+	height: 100%;
 	background: #BA3A5B;
 }
 
 .contact {
-	height:100%;
+	height: 100%;
 	background: #6C2973;
 }
 
 .main-footer{
-font-family:sans-serif;
+font-family: ans-serif;
 text-align: center;
 }
 
