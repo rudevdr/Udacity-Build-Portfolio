@@ -48,7 +48,6 @@ margin-right: 10px;
 
 }
 
-
 .name-text {
 	color: #480000;
 	font-family: sans-serif;
@@ -100,11 +99,9 @@ margin-left: 30px;
 	margin-left: 20px;
 }
 
-
 .experience-web h3 {
 margin-left: 50px;
 }
-
 
 .project-ribbon {
 	position: relative;
@@ -149,8 +146,6 @@ margin-left: 30px;
 	background: #CA929D;
 }
 
-
-
 #project-icon-web-1 {
 width: 220px;
 height: 100px;
@@ -167,21 +162,17 @@ vertical-align: center;
 	color:#FBF1C7;
 }
 
-
 .project-link a:link{
 	color:#FBF1C7;
 }
-
 
 .project-link  a:hover{
 	color: #CBAE06;
 }
 
-
 .project-link  a:active{
 	color: green;
 }
-
 
 #group-icon-web-1 {
 	width: 50px;
@@ -211,16 +202,13 @@ vertical-align: center;
 	color:#FBF1C7;
 }
 
-
 .contact-group a:link{
 	color:#FBF1C7;
 }
 
-
 .contact-group  a:hover, .main-footer a:hover{
 	color: #CBAE06;
 }
-
 
 .contact-group  a:active, .main-footer a:active{
 	color: green;
@@ -229,8 +217,6 @@ vertical-align: center;
 .contact-group a {
 	font-family: sans-serif;
 }
-
-
 
 .experience {
 	width: 100%;
@@ -253,7 +239,6 @@ vertical-align: center;
 font-family: ans-serif;
 text-align: center;
 }
-
 
 .main-footer a:link, .main-footer a:visited{
 	color: red;
