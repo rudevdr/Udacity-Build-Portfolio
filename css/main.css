@@ -1,12 +1,10 @@
 html, body {
-	width: 100%;
+	width: 100vw;
 	height: 100%; /* 100% of the viewport height */
 	min-height: 100%;
+	min-width: 100%;
 	margin: 0;
-}
-
-div {
-	display: block;
+	overflow-x: hidden;
 }
 
 .main-header { 
@@ -15,7 +13,6 @@ div {
 	width: 100%;
 	position: relative;
 	float:right;
-	clear:both;
 }
 
 .name {
@@ -44,12 +41,12 @@ margin-right: 10px;
 
 	background-color:black; 
 	color:white; 
-	font-family:sans-serif;
+	font-family:arial;
 	display:inline;
 	float:right;
 	font-size:30px;
 	position: relative;
-	top: 130px;
+	top: 110px;
 
 }
 
@@ -111,13 +108,6 @@ margin-left:50px;
 }
 
 
-
-
-
-
-
-
-
 .project-ribbon {
 	position: relative;
 }
@@ -170,6 +160,31 @@ margin-left: 20px;
 margin-top: 70px;
 }
 
+.project-link a{
+font-family: sans-serif;
+vertical-align:center;
+}
+
+.project-link a:visited{
+	color:#FBF1C7;
+}
+
+
+.project-link a:link{
+	color:#FBF1C7;
+}
+
+
+.project-link  a:hover{
+	color:#CBAE06;
+}
+
+
+.project-link  a:active{
+	color:green;
+}
+
+
 #group-icon-web-1 {
 	width: 50px;
 	margin-top: 23px;
@@ -195,7 +210,7 @@ margin-top: 70px;
 
 }
 
-.contact-group a:visited{
+.contact-group a:visited {
 	color:#FBF1C7;
 }
 
@@ -205,37 +220,19 @@ margin-top: 70px;
 }
 
 
-.contact-group  a:hover{
+.contact-group  a:hover, .main-footer a:hover{
 	color:#CBAE06;
 }
 
 
-.contact-group  a:active{
+.contact-group  a:active, .main-footer a:active{
 	color:green;
 }
 
-.project-link-text{
-font-family: sans-serif;
+.contact-group a {
+	font-family: sans-serif;
 }
 
-.project-link a:visited{
-	color:#FBF1C7;
-}
-
-
-.project-link a:link{
-	color:#FBF1C7;
-}
-
-
-.project-link  a:hover{
-	color:#CBAE06;
-}
-
-
-.project-link  a:active{
-	color:green;
-}
 
 
 .experience {
@@ -253,4 +250,14 @@ font-family: sans-serif;
 .contact {
 	height:100%;
 	background: #6C2973;
+}
+
+.main-footer{
+font-family:sans-serif;
+text-align: center;
+}
+
+
+.main-footer a:link, .main-footer a:visited{
+	color: red;
 }
