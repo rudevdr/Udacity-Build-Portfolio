@@ -3,6 +3,7 @@
 	flex-wrap: wrap;
 }
 
+/* BREAKPOINT 1 */
 @media screen and (max-width:666px ){
 	#name-self {
 		font-size: 40px;
@@ -104,6 +105,7 @@
 	}
 }
 
+/* BREAKPOINT 2 */
 @media screen and (max-width:596px ){
 	#name-self {
 		font-size: 36px;
@@ -201,6 +203,7 @@
 	}
 }
 
+/* BREAKPOINT 3 */
 @media screen and (max-width:486px ){
 	#name-self {
 		font-size: 36px;
